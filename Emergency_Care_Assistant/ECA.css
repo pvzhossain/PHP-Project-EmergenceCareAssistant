@@ -1,0 +1,342 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4
+}
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+header{
+	background:#35424a;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:e849id 3px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+header ul{
+	padding:0;
+	margin:0;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 0;
+}
+
+header #branding{
+	float:left;
+}
+
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+header #branding img{
+  width:55px;
+  height:55px;
+  float:left;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+
+#showcase{
+	min-height:300px;
+	background-image:url(back11.png);
+	padding:48px;
+	text-align:left;
+	color:black;
+}
+#showcase h1{
+	margin-top:100px;
+	font-size:50px;
+	margin-bottom:10px;
+}
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+  height:90px;
+}
+
+/*About*/
+article#main-col{
+	padding:auto;
+	margin:auto;
+	width:30%;
+	text-align:center;
+}
+
+
+/*Feedback*/
+
+
+.feedback{
+	padding:auto;
+	margin:auto;
+	width:20%;
+	
+}
+
+#main-colfeed h1{
+    text-align: center;
+}
+
+textarea{
+    width: 300px;
+	padding:5px;
+    border: none;
+    background-color: aqua;
+    border-radius: 6px;
+}
+
+
+.feedback button{
+	margin-top:10px;
+	margin-left:100px;
+    width: 80px;
+    height: 32px;
+    background: #21C040;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+
+/*Emergency Doctor*/
+
+article#main-coldoc{
+	padding:auto;
+	margin:auto;
+	width:20%;
+}
+article#main-coldoc  .edoc input{
+	width:90%;
+	padding:5px;
+}
+
+article#main-coldoc .edoc button{
+	margin-top:10px;
+	margin-left:60px;
+    width: 80px;
+    height: 32px;
+    background: #21C040;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+article#main-coldoc .edoc select{
+	display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 20px;
+    background-color: #BEE4E6;
+    transition: 0.2s ease;
+    
+}
+
+
+/*Reserve Ambulance*/
+
+article#main-colamblist{
+	padding:auto;
+	margin:auto;
+	width:20%;
+}
+
+article#main-colamblist .amblist button{
+	margin-top:10px;
+	margin-left:60px;
+    width: 80px;
+    height: 32px;
+    background: #21C040;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+
+
+article#main-colamblist .amblist select{
+	
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 20px;
+    background-color: #BEE4E6;
+    transition: 0.2s ease;  
+}
+
+
+/*Register*/
+
+article#main-colregister .error 
+{
+    width: 500px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2.5px solid #88CD20; 
+    color: #a94442; 
+    background: #FBFEFE; 
+    border-radius: 20px;
+
+}
+
+article#main-colregister{
+	padding:auto;
+	margin:auto;
+	width:20%;
+	
+}
+
+article#main-colregister  .register input{
+	width:90%;
+	padding:5px;
+    
+}
+
+
+article#main-colregister .register button{
+	margin-top:10px;
+	margin-left:60px;
+    width: 80px;
+    height: 32px;
+    background: #21C040;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+
+/*Login*/
+
+article#main-collogin .error 
+{
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2.5px solid #88CD20; 
+    color: #a94442; 
+    background: #FBFEFE; 
+    border-radius: 20px;
+
+}
+
+
+article#main-collogin{
+	padding:auto;
+	margin:auto;
+	width:20%;
+	
+}
+
+article#main-collogin  .login input{
+	width:90%;
+	padding:5px;
+}
+article#main-collogin .login button{
+	margin-top:10px;
+	margin-left:60px;
+    width: 80px;
+    height: 32px;
+    background: #9067D7;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+
+
+/*Textbox Style*/
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 20px;
+    background-color: #BEE4E6;
+    transition: 0.2s ease;
+}
+
+
+
+/*Copy Right*/
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
